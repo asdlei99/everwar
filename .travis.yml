@@ -1,5 +1,5 @@
 #
-# This file is part of the CMaNGOS Project. See AUTHORS file for Copyright information
+# This file is part of the Everwar Project. See AUTHORS file for Copyright information
 #
 # This program is free software; you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -43,6 +43,7 @@ env:
     - BUILD_TYPE=Release
     - BUILD_TYPE=Release PCH_FLAG=ON
 
+# gcc and g++ version must be 4.8
 addons:
   apt:
     sources:
@@ -73,5 +74,5 @@ script:
   - make -j4
   - make install
 
-# if this configuration file is not in one of the offical CMaNGOS repositories at http://github.com/cmangos/, PLEASE remove the notifications or point them to another IRC channel!
+# if this configuration file is not in one of the offical Everwar repositories at http://github.com/Everwar/, PLEASE remove the notifications or point them to another IRC channel!
 

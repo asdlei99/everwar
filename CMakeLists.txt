@@ -1,4 +1,6 @@
-project(CMaNGOS)
+# build server
+
+project(Everwar)
 
 cmake_minimum_required(VERSION 2.8.12)
 

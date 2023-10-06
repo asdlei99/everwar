@@ -1,5 +1,5 @@
 /*
- * This file is part of the CMaNGOS Project. See AUTHORS file for Copyright information
+ * This file is part of the Everwar Project. See AUTHORS file for Copyright information
  *
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -23,6 +23,10 @@
  * @file Mail.cpp
  * This file contains the code needed for MaNGOS to handle mails.
  *
+ */
+
+ /*
+ * word and player and bot manage
  */
 
 #include "Mail.h"

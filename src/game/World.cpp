@@ -1,5 +1,5 @@
 /*
- * This file is part of the CMaNGOS Project. See AUTHORS file for Copyright information
+ * This file is part of the Everwar Project. See AUTHORS file for Copyright information
  *
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -369,7 +369,7 @@ void World::LoadConfigSettings(bool reload)
 
     ///- Read the player limit and the Message of the day from the config file
     SetPlayerLimit(sConfig.GetIntDefault("PlayerLimit", DEFAULT_PLAYER_LIMIT), true);
-    SetMotd(sConfig.GetStringDefault("Motd", "Welcome to the Massive Network Game Object Server."));
+    SetMotd(sConfig.GetStringDefault("Motd", "Welcome to the everwar.cn Server."));
 
     ///- Read all rates from the config file
     setConfigPos(CONFIG_FLOAT_RATE_HEALTH,                               "Rate.Health",                               1.0f);
@@ -1269,7 +1269,7 @@ void World::SetInitialWorldSettings()
     PlayerbotMgr::SetInitialWorldSettings();
 
     sLog.outString("---------------------------------------");
-    sLog.outString("      CMANGOS: World initialized       ");
+    sLog.outString("      Everwar: World initialized       ");
     sLog.outString("---------------------------------------");
     sLog.outString();
 

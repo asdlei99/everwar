@@ -1,5 +1,5 @@
 /*
- * This file is part of the CMaNGOS Project. See AUTHORS file for Copyright information
+ * This file is part of the Everwar Project. See AUTHORS file for Copyright information
  *
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -23,7 +23,7 @@
 #include "../../dep/recastnavigation/Detour/Include/DetourNavMesh.h"
 
 #define MMAP_MAGIC 0x4d4d4150   // 'MMAP'
-#define MMAP_VERSION 5
+#define MMAP_VERSION 4
 
 struct MmapTileHeader
 {

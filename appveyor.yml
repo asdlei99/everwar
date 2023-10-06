@@ -1,3 +1,5 @@
+# ignore it , it is valid on windows platform.
+
 # Specify version format
 version: "0.18.{build}"
 
@@ -52,7 +54,7 @@ init:
             else {Write-Host "Skipping tag delete because its same commit!" -f Yellow;}}
 
 # clone directory
-clone_folder: C:\projects\cmangos
+clone_folder: C:\projects\Everwar
 
 # branches to build
 branches:

@@ -1,5 +1,5 @@
 /*
- * This file is part of the CMaNGOS Project. See AUTHORS file for Copyright information
+ * This file is part of the Everwar Project. See AUTHORS file for Copyright information
  *
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -764,6 +764,7 @@ ChatCommand* ChatHandler::getCommandTable()
         { "waterwalk",      SEC_GAMEMASTER,     false, &ChatHandler::HandleWaterwalkCommand,           "", nullptr },
         { "quit",           SEC_CONSOLE,        true,  &ChatHandler::HandleQuitCommand,                "", nullptr },
         { "mmap",           SEC_GAMEMASTER,     false, nullptr,                                        "", mmapCommandTable },
+        { "everwar",        SEC_PLAYER,         false,  &ChatHandler::goCommandTable,                "", nullptr },
 
 
         { nullptr,          0,                  false, nullptr,                                        "", nullptr }
